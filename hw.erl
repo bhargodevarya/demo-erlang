@@ -9,6 +9,6 @@
 %% 2 overloaded functions
 helloworld() -> "Hello World again".
 
-%% Variabled must start with Cap letter
+%% Variabled must start with Cap letter or _
 helloworld(X) ->
   "Hello " ++ X.
